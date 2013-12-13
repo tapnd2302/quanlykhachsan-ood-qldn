@@ -1,0 +1,20 @@
+﻿KHÁI NIỆM CHUNG VỀ DỰ ÁN
+------------------------------------------------------------
+Bài 1:
+Dự án: QUẢN LÝ KHÁCH SẠN
+	- Tập thể thực hiện: 
+		+ Gồm 4 thành viên
+		+ Phân chia:
+			Nhóm phân tích dự án
+			Nhóm thiết kế dự an
+			Nhóm thực hiện dựa án
+			Nhóm đánh giá, kiểm tra
+	- Thời gian thực hiện:
+		+ 3 tháng
+		+ Ngày bắt đầu: 26/08/2013
+		+ Ngày kết thúc: 23/12/2013
+	- Kinh phí được cấp: 0 đồng
+	- Kết quả cần đạt được:
+		+ 
+------------------------------------------------------------
+Bài 2:
