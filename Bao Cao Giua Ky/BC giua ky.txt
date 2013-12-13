@@ -1,0 +1,9 @@
+﻿Nội dung:
++ Bảng theo dõi tiến độ đồ án, hoàn thành bao nhiêu phần trăm dự án
++ Biên bản họp nhóm
++ Công việc: Hoàn thành
+	++ WBS
+	++ Network Datagram
+	++ Chi phí công việc
+	++ Tracking ---> Set baseline
+	++ Resource leveling
