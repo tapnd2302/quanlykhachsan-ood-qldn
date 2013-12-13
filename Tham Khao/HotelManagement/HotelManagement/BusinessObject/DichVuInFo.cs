@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace HotelManagement.BusinessObject
+{
+    public class DichVuInFo
+    {
+        private string m_MaDichVu;
+        public string MaDichVu
+        {
+            get { return m_MaDichVu; }
+            set { m_MaDichVu = value; }
+        }
+
+        private string m_MaKhachHang;
+        public string MaKhachHang
+        {
+            get { return m_MaKhachHang; }
+            set { m_MaKhachHang = value; }
+        }
+
+        private string m_MaLoaiDichVu;
+        public string MaLoaiDichVu
+        {
+            get { return m_MaLoaiDichVu; }
+            set { m_MaLoaiDichVu = value; }
+        }
+
+        private string m_MaDonVi;
+        public string MaDonVi
+        {
+            get { return m_MaDonVi; }
+            set { m_MaDonVi = value; }
+        }
+
+        private float m_DonGia;
+        public float DonGia
+        {
+            get { return m_DonGia; }
+            set { m_DonGia = value; }
+        }
+
+        private int m_SoLuong;
+        public int SoLuong
+        {
+            get { return m_SoLuong; }
+            set { m_SoLuong = value; }
+        }
+    }
+}
