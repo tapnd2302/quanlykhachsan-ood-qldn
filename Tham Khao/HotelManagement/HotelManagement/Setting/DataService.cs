@@ -13,7 +13,7 @@ namespace HotelManagement.Setting
         SqlDataAdapter m_DataAdapter;//thuonng dung doc du lieu lenh datagridview. ton nhieu bo nho
         SqlCommand m_Command;//doc du lieu len combobox. ton it bo nho
 
-        public static string strConnect = "Data Source=OS0820GSH\\LOVEGIVE;Initial Catalog=QUAN_LY_NHA_HANG_KHACH_SAN_HOAN_HIEP;Integrated Security=True";
+        public static string strConnect = "Data Source=(local);Initial Catalog=QUAN_LY_KHACH_SAN;Integrated Security=True";
 
         public DataService()
         {

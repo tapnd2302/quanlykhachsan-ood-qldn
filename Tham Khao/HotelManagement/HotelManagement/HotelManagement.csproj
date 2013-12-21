@@ -127,14 +127,10 @@
     <Compile Include="DataObject\ThanhToanData.cs" />
     <Compile Include="AutoID.cs" />
     <Compile Include="Excel.cs" />
-    <Compile Include="QUAN_LY_NHA_HANG_KHACH_SAN_HOAN_HIEPDataSet.cs">
-      <DependentUpon>QUAN_LY_NHA_HANG_KHACH_SAN_HOAN_HIEPDataSet.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="QUAN_LY_NHA_HANG_KHACH_SAN_HOAN_HIEPDataSet.Designer.cs">
+    <Compile Include="QUAN_LY_KHACH_SANDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>QUAN_LY_NHA_HANG_KHACH_SAN_HOAN_HIEPDataSet.xsd</DependentUpon>
+      <DependentUpon>QUAN_LY_KHACH_SANDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Setting\DataService.cs">
       <SubType>Component</SubType>
@@ -378,16 +374,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="QUAN_LY_NHA_HANG_KHACH_SAN_HOAN_HIEPDataSet.xsc">
-      <DependentUpon>QUAN_LY_NHA_HANG_KHACH_SAN_HOAN_HIEPDataSet.xsd</DependentUpon>
+    <None Include="QUAN_LY_KHACH_SANDataSet.xsc">
+      <DependentUpon>QUAN_LY_KHACH_SANDataSet.xsd</DependentUpon>
     </None>
-    <None Include="QUAN_LY_NHA_HANG_KHACH_SAN_HOAN_HIEPDataSet.xsd">
+    <None Include="QUAN_LY_KHACH_SANDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QUAN_LY_NHA_HANG_KHACH_SAN_HOAN_HIEPDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>QUAN_LY_KHACH_SANDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="QUAN_LY_NHA_HANG_KHACH_SAN_HOAN_HIEPDataSet.xss">
-      <DependentUpon>QUAN_LY_NHA_HANG_KHACH_SAN_HOAN_HIEPDataSet.xsd</DependentUpon>
+    <None Include="QUAN_LY_KHACH_SANDataSet.xss">
+      <DependentUpon>QUAN_LY_KHACH_SANDataSet.xsd</DependentUpon>
     </None>
     <None Include="Resource\PTS.psd" />
   </ItemGroup>
