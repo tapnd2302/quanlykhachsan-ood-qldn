@@ -1,0 +1,17 @@
+1.1	Đặc tả Use-case “Tên Use-case”
+1.1.1	Tóm tắt
+Tóm tắt ngắn gọn về Use-case (ai sử dụng use-case, dùng use-case để thực hiện chức năng gì, ý nghĩa của use-case…)
+1.1.2	Dòng sự kiện
+1.1.2.1	Dòng sự kiện chính
+Trình bày dòng sự kiện chính của Use-case, từ khi Use-case bắt đầu thực hiện đến khi chấm dứt dòng sự kiện chính
+Nên đánh số thứ tự các bước trong dòng sự kiện chính 
+1.1.2.2	Các dòng sự kiện khác
+Trình bày các dòng sự kiện khác. Nếu không có dòng sự kiện khác, ghi “Không có”
+1.1.3	Các yêu cầu đặc biệt
+Ghi nhận các yêu cầu đặc biệt khi thực hiện Use-case. Nếu không có yêu cầu đặc biệt nào, ghi “Không có”
+1.1.4	Trạng thái hệ thống khi bắt đầu thực hiện Use-case
+Mô tả rõ điều kiện trước khi bắt đầu thực hiện Use-case (ví dụ có đòi hỏi người sử dụng phải đăng nhập thành công trước đó hay không…)
+1.1.5	Trạng thái hệ thống sau khi thực hiện Use-case
+Mô tả rõ tình trạng hệ thống sau khi thực hiện Use-case (bao gồm cả trường hợp Use-case thực hiện thành công, hoặc thất bại).
+1.1.6	Điểm mở rộng
+Mô tả những tình huống xuất hiện các Use-case khác có quan hệ <<extend>> với Use-case đang xét.
