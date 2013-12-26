@@ -37,25 +37,20 @@
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevComponents.DotNetBar.Design, Version=9.4.0.0, Culture=neutral, PublicKeyToken=3caa4ad0ba35cf8d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevComponents.DotNetBar.Design.dll</HintPath>
+    <Reference Include="DevComponents.DotNetBar.Design">
+      <HintPath>Data\DevComponents.DotNetBar.Design.dll</HintPath>
     </Reference>
-    <Reference Include="DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>Data\DevComponents.DotNetBar2.dll</HintPath>
     </Reference>
-    <Reference Include="DevComponents.Instrumentation, Version=9.4.0.0, Culture=neutral, PublicKeyToken=105a14414ec031c3, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevComponents.Instrumentation.dll</HintPath>
+    <Reference Include="DevComponents.Instrumentation">
+      <HintPath>Data\DevComponents.Instrumentation.dll</HintPath>
     </Reference>
-    <Reference Include="DevComponents.Instrumentation.Design, Version=9.4.0.0, Culture=neutral, PublicKeyToken=d0972e594baf5baf, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevComponents.Instrumentation.Design.dll</HintPath>
+    <Reference Include="DevComponents.Instrumentation.Design">
+      <HintPath>Data\DevComponents.Instrumentation.Design.dll</HintPath>
     </Reference>
-    <Reference Include="DevComponents.TreeGX, Version=9.4.0.0, Culture=neutral, PublicKeyToken=9798720bc71d32b1, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevComponents.TreeGX.dll</HintPath>
+    <Reference Include="DevComponents.TreeGX">
+      <HintPath>Data\DevComponents.TreeGX.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
