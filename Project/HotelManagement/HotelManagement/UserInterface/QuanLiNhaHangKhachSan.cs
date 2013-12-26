@@ -15,6 +15,7 @@ namespace HotelManagement.UserInterface
     public partial class QuanLiNhaHangKhachSan : Form
     {
         string nameDangNhap = "";
+
         public QuanLiNhaHangKhachSan()
         {
             InitializeComponent();
@@ -60,9 +61,10 @@ namespace HotelManagement.UserInterface
 
         private void QuanLiNhaHangKhachSan_Load(object sender, EventArgs e)
         {
-            //Default();
+            Default();
             UpdateListPhong();
         }
+
         //
         // He thong
         //-------------------------------------------------------------------------------------
@@ -197,14 +199,15 @@ namespace HotelManagement.UserInterface
                         goto TiepTuc;
                     case 2:
                         MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        if (ndCtrl.PhanQuyen == "LND01")
+                        if (ndCtrl.PhanQuyen == "admin")
                         {
                             nameDangNhap = tenDangNhap;
                             Admin();
                         }
                         else
                         {
-                            User();
+                            //User();
+                            Admin();
                         }
                         break;
                 }
