@@ -70,10 +70,10 @@
             this.tabControlMenu = new DevComponents.DotNetBar.TabControl();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
             this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.đăngKýToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nhậnPhòngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.trảPohngfToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thêmPhòngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dangKyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thuePhongToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.traPhongToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.themPhongToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listView = new System.Windows.Forms.ListView();
             this.tabControlPanel3.SuspendLayout();
             this.tabControlPanel5.SuspendLayout();
@@ -105,10 +105,10 @@
             this.tabControlPanel3.Controls.Add(this.btDSLoaiPhong);
             this.tabControlPanel3.Controls.Add(this.btDSThietBi);
             this.tabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel3.Location = new System.Drawing.Point(0, 29);
+            this.tabControlPanel3.Location = new System.Drawing.Point(0, 75);
             this.tabControlPanel3.Name = "tabControlPanel3";
             this.tabControlPanel3.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel3.Size = new System.Drawing.Size(1344, 114);
+            this.tabControlPanel3.Size = new System.Drawing.Size(1344, 68);
             this.tabControlPanel3.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
             this.tabControlPanel3.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
             this.tabControlPanel3.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -201,10 +201,10 @@
             this.tabControlPanel5.Controls.Add(this.btQuyDinh);
             this.tabControlPanel5.Controls.Add(this.btLienHe);
             this.tabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel5.Location = new System.Drawing.Point(0, 29);
+            this.tabControlPanel5.Location = new System.Drawing.Point(0, 75);
             this.tabControlPanel5.Name = "tabControlPanel5";
             this.tabControlPanel5.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel5.Size = new System.Drawing.Size(1344, 114);
+            this.tabControlPanel5.Size = new System.Drawing.Size(1344, 68);
             this.tabControlPanel5.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
             this.tabControlPanel5.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
             this.tabControlPanel5.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -253,10 +253,10 @@
             // 
             this.tabControlPanel4.Controls.Add(this.btDoanhThu);
             this.tabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel4.Location = new System.Drawing.Point(0, 29);
+            this.tabControlPanel4.Location = new System.Drawing.Point(0, 75);
             this.tabControlPanel4.Name = "tabControlPanel4";
             this.tabControlPanel4.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel4.Size = new System.Drawing.Size(1344, 114);
+            this.tabControlPanel4.Size = new System.Drawing.Size(1344, 68);
             this.tabControlPanel4.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
             this.tabControlPanel4.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
             this.tabControlPanel4.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -316,10 +316,10 @@
             this.tabControlPanel2.Controls.Add(this.btKhachHang);
             this.tabControlPanel2.Controls.Add(this.btDangKyTruoc);
             this.tabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel2.Location = new System.Drawing.Point(0, 29);
+            this.tabControlPanel2.Location = new System.Drawing.Point(0, 75);
             this.tabControlPanel2.Name = "tabControlPanel2";
             this.tabControlPanel2.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel2.Size = new System.Drawing.Size(1344, 114);
+            this.tabControlPanel2.Size = new System.Drawing.Size(1344, 68);
             this.tabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
             this.tabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
             this.tabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -460,10 +460,10 @@
             this.tabControlPanel1.Controls.Add(this.btDangXuat);
             this.tabControlPanel1.Controls.Add(this.btDangNhap);
             this.tabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel1.Location = new System.Drawing.Point(0, 29);
+            this.tabControlPanel1.Location = new System.Drawing.Point(0, 75);
             this.tabControlPanel1.Name = "tabControlPanel1";
             this.tabControlPanel1.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel1.Size = new System.Drawing.Size(1344, 114);
+            this.tabControlPanel1.Size = new System.Drawing.Size(1344, 68);
             this.tabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
             this.tabControlPanel1.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
             this.tabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -542,45 +542,45 @@
             this.contextMenuStrip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.contextMenuStrip.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.đăngKýToolStripMenuItem,
-            this.nhậnPhòngToolStripMenuItem,
-            this.trảPohngfToolStripMenuItem,
-            this.thêmPhòngToolStripMenuItem});
+            this.dangKyToolStripMenuItem,
+            this.thuePhongToolStripMenuItem,
+            this.traPhongToolStripMenuItem,
+            this.themPhongToolStripMenuItem});
             this.contextMenuStrip.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Table;
             this.contextMenuStrip.Name = "contextMenuStrip1";
-            this.contextMenuStrip.Size = new System.Drawing.Size(168, 100);
+            this.contextMenuStrip.Size = new System.Drawing.Size(168, 122);
             // 
-            // đăngKýToolStripMenuItem
+            // dangKyToolStripMenuItem
             // 
-            this.đăngKýToolStripMenuItem.Image = global::HotelManagement.Properties.Resources.DangKyTruoc;
-            this.đăngKýToolStripMenuItem.Name = "đăngKýToolStripMenuItem";
-            this.đăngKýToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
-            this.đăngKýToolStripMenuItem.Text = "Đăng ký";
-            this.đăngKýToolStripMenuItem.Click += new System.EventHandler(this.đăngKýToolStripMenuItem_Click);
+            this.dangKyToolStripMenuItem.Image = global::HotelManagement.Properties.Resources.DangKyTruoc;
+            this.dangKyToolStripMenuItem.Name = "dangKyToolStripMenuItem";
+            this.dangKyToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
+            this.dangKyToolStripMenuItem.Text = "Đăng ký";
+            this.dangKyToolStripMenuItem.Click += new System.EventHandler(this.đăngKýToolStripMenuItem_Click);
             // 
-            // nhậnPhòngToolStripMenuItem
+            // thuePhongToolStripMenuItem
             // 
-            this.nhậnPhòngToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("nhậnPhòngToolStripMenuItem.Image")));
-            this.nhậnPhòngToolStripMenuItem.Name = "nhậnPhòngToolStripMenuItem";
-            this.nhậnPhòngToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
-            this.nhậnPhòngToolStripMenuItem.Text = "Thuê phòng";
-            this.nhậnPhòngToolStripMenuItem.Click += new System.EventHandler(this.nhậnPhòngToolStripMenuItem_Click);
+            this.thuePhongToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("thuePhongToolStripMenuItem.Image")));
+            this.thuePhongToolStripMenuItem.Name = "thuePhongToolStripMenuItem";
+            this.thuePhongToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
+            this.thuePhongToolStripMenuItem.Text = "Thuê phòng";
+            this.thuePhongToolStripMenuItem.Click += new System.EventHandler(this.nhậnPhòngToolStripMenuItem_Click);
             // 
-            // trảPohngfToolStripMenuItem
+            // traPhongToolStripMenuItem
             // 
-            this.trảPohngfToolStripMenuItem.Image = global::HotelManagement.Properties.Resources.TraPhong;
-            this.trảPohngfToolStripMenuItem.Name = "trảPohngfToolStripMenuItem";
-            this.trảPohngfToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
-            this.trảPohngfToolStripMenuItem.Text = "Trả phòng";
-            this.trảPohngfToolStripMenuItem.Click += new System.EventHandler(this.trảPohngfToolStripMenuItem_Click);
+            this.traPhongToolStripMenuItem.Image = global::HotelManagement.Properties.Resources.TraPhong;
+            this.traPhongToolStripMenuItem.Name = "traPhongToolStripMenuItem";
+            this.traPhongToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
+            this.traPhongToolStripMenuItem.Text = "Trả phòng";
+            this.traPhongToolStripMenuItem.Click += new System.EventHandler(this.trảPohngfToolStripMenuItem_Click);
             // 
-            // thêmPhòngToolStripMenuItem
+            // themPhongToolStripMenuItem
             // 
-            this.thêmPhòngToolStripMenuItem.Image = global::HotelManagement.Properties.Resources.Phong;
-            this.thêmPhòngToolStripMenuItem.Name = "thêmPhòngToolStripMenuItem";
-            this.thêmPhòngToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
-            this.thêmPhòngToolStripMenuItem.Text = "Thêm phòng";
-            this.thêmPhòngToolStripMenuItem.Click += new System.EventHandler(this.thêmPhòngToolStripMenuItem_Click);
+            this.themPhongToolStripMenuItem.Image = global::HotelManagement.Properties.Resources.Phong;
+            this.themPhongToolStripMenuItem.Name = "themPhongToolStripMenuItem";
+            this.themPhongToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
+            this.themPhongToolStripMenuItem.Text = "Thêm phòng";
+            this.themPhongToolStripMenuItem.Click += new System.EventHandler(this.thêmPhòngToolStripMenuItem_Click);
             // 
             // listView
             // 
@@ -656,10 +656,10 @@
         private DevComponents.DotNetBar.TabControl tabControlMenu;
         private DevComponents.DotNetBar.RibbonTabItem ribbonTabItem1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip;
-        private System.Windows.Forms.ToolStripMenuItem đăngKýToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem trảPohngfToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nhậnPhòngToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem thêmPhòngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dangKyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem traPhongToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thuePhongToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem themPhongToolStripMenuItem;
         private DevComponents.DotNetBar.ButtonX btDonVi;
         private DevComponents.DotNetBar.ButtonX btLoaiDatTiec;
         private DevComponents.DotNetBar.ButtonX btDatTiec;

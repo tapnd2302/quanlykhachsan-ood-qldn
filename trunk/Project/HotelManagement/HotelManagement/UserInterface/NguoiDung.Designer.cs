@@ -279,7 +279,7 @@
             this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTenDangNhap.Name = "txtTenDangNhap";
             this.txtTenDangNhap.Size = new System.Drawing.Size(272, 26);
-            this.txtTenDangNhap.TabIndex = 0;
+            this.txtTenDangNhap.TabIndex = 1;
             this.txtTenDangNhap.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTenDangNhap_KeyDown);
             // 
             // txtMatKhau
@@ -288,7 +288,7 @@
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(272, 26);
-            this.txtMatKhau.TabIndex = 1;
+            this.txtMatKhau.TabIndex = 2;
             this.txtMatKhau.UseSystemPasswordChar = true;
             this.txtMatKhau.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMatKhau_KeyDown);
             // 
@@ -300,7 +300,7 @@
             this.cmbLoaiNguoiDung.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbLoaiNguoiDung.Name = "cmbLoaiNguoiDung";
             this.cmbLoaiNguoiDung.Size = new System.Drawing.Size(272, 28);
-            this.cmbLoaiNguoiDung.TabIndex = 2;
+            this.cmbLoaiNguoiDung.TabIndex = 3;
             // 
             // groupPanel1
             // 
@@ -365,7 +365,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(632, 583);
+            this.ClientSize = new System.Drawing.Size(628, 579);
             this.ControlBox = false;
             this.Controls.Add(this.groupPanel1);
             this.Controls.Add(this.dataGridView);
