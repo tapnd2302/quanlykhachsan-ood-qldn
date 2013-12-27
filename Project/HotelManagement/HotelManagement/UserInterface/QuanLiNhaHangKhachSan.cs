@@ -99,6 +99,11 @@ namespace HotelManagement.UserInterface
 
             btQuyDinh.Enabled = false;
             btLienHe.Enabled = true;
+
+            dangKyToolStripMenuItem.Enabled = false;
+            thuePhongToolStripMenuItem.Enabled = false;
+            traPhongToolStripMenuItem.Enabled = false;
+            themPhongToolStripMenuItem.Enabled = false;
         }
 
         private void Admin()
@@ -135,6 +140,11 @@ namespace HotelManagement.UserInterface
 
             btQuyDinh.Enabled = true;
             btLienHe.Enabled = true;
+
+            dangKyToolStripMenuItem.Enabled = true;
+            thuePhongToolStripMenuItem.Enabled = true;
+            traPhongToolStripMenuItem.Enabled = true;
+            themPhongToolStripMenuItem.Enabled = true;
         }
 
         private void User()
@@ -171,6 +181,11 @@ namespace HotelManagement.UserInterface
 
             btQuyDinh.Enabled = true;
             btLienHe.Enabled = true;
+
+            dangKyToolStripMenuItem.Enabled = true;
+            thuePhongToolStripMenuItem.Enabled = true;
+            traPhongToolStripMenuItem.Enabled = true;
+            themPhongToolStripMenuItem.Enabled = false;
         }
 
         DangNhap dangNhap = null;

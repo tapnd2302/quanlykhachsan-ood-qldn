@@ -71,6 +71,9 @@ namespace HotelManagement.UserInterface
                     ndCtrl.Add(row);
                     ndCtrl.Save();
                     bindingNavigator.BindingSource.MoveLast();
+                    txtTenDangNhap.ResetText();
+                    txtMatKhau.ResetText();
+                    txtTenDangNhap.Focus();
                     MessageBox.Show("Thêm thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
